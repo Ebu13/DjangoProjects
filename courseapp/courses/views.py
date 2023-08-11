@@ -6,3 +6,9 @@ def home(request):
 
 def courses(request):
     return HttpResponse("Courses List")
+
+def contact(request):
+    return HttpResponse("Contact")
+
+def aboutofus(request):
+    return HttpResponse("About of us")
