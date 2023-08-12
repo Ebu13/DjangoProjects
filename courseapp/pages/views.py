@@ -5,7 +5,7 @@ def nul(request):
     return redirect('/home')
 
 def home(request):
-    return render(request,'index.html')
+    return render(request,'home.html')
 
 def projects(request):
     return render(request,'projects.html')
